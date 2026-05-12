@@ -204,7 +204,7 @@ export const botConfig = {
     defaultCategory: null,
 
     // Role IDs allowed to manage/support tickets.
-    supportRoles: [],
+    supportRoles: 1043995519434895431,
 
     // Priority options users/staff can assign.
     priorities: {
@@ -436,30 +436,30 @@ export const botConfig = {
   // Set any feature to `false` to disable it globally.
   features: {
     // Core systems.
-    economy: true,
-    leveling: true,
+    economy: false,
+    leveling: false,
     moderation: true,
     logging: true,
-    welcome: true,
+    welcome: false,
 
     // Community engagement systems.
     tickets: true,
-    giveaways: true,
-    birthday: true,
+    giveaways: false,
+    birthday: false,
     counter: true,
 
     // Security and self-service systems.
-    verification: true,
-    reactionRoles: true,
-    joinToCreate: true,
+    verification: false,
+    reactionRoles: false,
+    joinToCreate: false,
 
     // Utility/quality-of-life modules.
     voice: true,
     search: true,
     tools: true,
     utility: true,
-    community: true,
-    fun: true,
+    community: false,
+    fun: false,
   },
 };
 
